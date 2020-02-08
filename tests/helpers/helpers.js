@@ -4,7 +4,7 @@ import Ember from 'ember';
 var compile = Ember.Handlebars.compile;
 
 function generateContent(n) {
-  var content = [];
+  var content = A();
   for (var i = 0; i < n; i++) {
     content.push({name: "Item " + (i+1)});
   }
